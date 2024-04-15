@@ -6,6 +6,8 @@ from sym import SYM
 import random
 from config import the
 
+
+
 class DATA:
 
     def __init__(self, src=[], fun=None):
@@ -52,15 +54,7 @@ class DATA:
     
     
     def gate(self, randomSeed, budget0, budget, some):
-        list_1,list_2,list_3, list_4, list_5, list_6 =[],[],[],[],[],[]
         random.seed(randomSeed)
-        rows = random.sample(self.rows, len(self.rows)) #shuffles the data
-        
-        list_1.append(f"1. top6: {[r.cells[len(r.cells)-3:] for r in rows[:6]]}")
-        list_2.append(f"2. top50:{[[r.cells[len(r.cells)-3:] for r in rows[:50]]]}")
-
-        rows.sort(key=lambda row: row.d2h(self))
-        list_3.append(f"3. most: {rows[0].cells[len(rows[0].cells)-3:]}")
 
         rows = random.sample(self.rows, len(self.rows))
 
@@ -71,23 +65,17 @@ class DATA:
         for i in range(budget):
             best, rest = self.best_rest(lite, len(lite)**some)
             todo, selected = self.split(best, rest, lite, dark)
-            list_4.append(f"4: rand:{random.sample(dark, budget0+i)[0].cells[-3:]}")
-            list_5.append(f"5: mid: {selected.mid().cells[len(selected.mid().cells)-3:]}")
-            list_6.append(f"6: top: {best.rows[0].cells[len(best.rows[0].cells)-3:]}")
 
             stats.append(selected.mid())
             bests.append(best.rows[0])
             lite.append(dark.pop(todo))
 
 
-        print('\n'.join(map(str, list_1)))
-        print('\n'.join(map(str, list_2)))
-        print('\n'.join(map(str, list_3)))
-        print('\n'.join(map(str, list_4)))
-        print('\n'.join(map(str, list_5)))
-        print('\n'.join(map(str, list_6)))
+        lite.sort(key=lambda a: a.d2h(),reverse=True)
+        # for best in lite:
+        #     print(best.cells)
 
-        return stats, bests
+        return lite[0].cells[len(lite[0].cells)-1]
 
     def split(self, best, rest, lite, dark):
         selected = DATA(self.cols.names)
@@ -99,13 +87,12 @@ class DATA:
             if b > r:
                 selected.add(row)
             tmp = abs(b + r) / abs(b - r + 1E-300)
-            # print('tmp',tmp, 'max', max_value)
             if tmp > max_value:
                 out, max_value = i, tmp
         return out, selected
 
     def best_rest(self, rows, want):
-        rows.sort(key=lambda a: a.d2h(self))
+        rows.sort(key=lambda a: a.d2h(self), reverse=True)
         best = DATA(self.cols.names)
         rest = DATA(self.cols.names)
         for i, row in enumerate(rows):

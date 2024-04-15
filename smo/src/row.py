@@ -1,6 +1,13 @@
 import math
 from config import the
 
+from sklearn import datasets, linear_model
+from sklearn.model_selection import train_test_split
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler, LabelEncoder
+import warnings
+
 class ROW:
     # Initializing ROW instance
     def __init__(self, t):
@@ -9,12 +16,26 @@ class ROW:
     # ROW class methods
         
     # Method to calculate distancce to heaven
-    def d2h(self, data):
-        d, n = 0, 0
-        for col in data.cols.y:
-            n = n + 1
-            d = d + abs(col.heaven - col.norm(self.cells[col.at]))**2
-        return (d**0.5)/(n**0.5)
+    # def d2h(self, data):
+    #     d, n = 0, 0
+    #     for col in data.cols.y:
+    #         n = n + 1
+    #         d = d + abs(col.heaven - col.norm(self.cells[col.at]))**2
+    #     return (d**0.5)/(n**0.5)
+
+    def d2h(self, data=None):
+        warnings.filterwarnings("ignore", message="Setting penalty=None will ignore the C and l1_ratio parameters")
+        if(len(self.cells)==6):
+            X, y = datasets.load_iris(return_X_y=True)
+            X = X / X.max()
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=23)
+            logistic = linear_model.LogisticRegression(max_iter=int(self.cells[0]), C=(self.cells[1]), tol=self.cells[2], fit_intercept=self.cells[3], dual=self.cells[4], penalty=self.cells[5])
+            score = round(logistic.fit(X_train, y_train).score(X_test, y_test),3)
+            self.cells.append(score)
+            return score
+        else:
+            return self.cells[6]
+        
 
     #Finding out how much a row likes the data
     def like(self, data, n, nHypotheses, the):
