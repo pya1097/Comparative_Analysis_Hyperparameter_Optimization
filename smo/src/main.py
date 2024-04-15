@@ -20,9 +20,9 @@ def gate(treatement, budget0, budget, some):
 if __name__ == "__main__":
     file_path = the['file']
     smos = {}
-    smos['smo6'] = gate(2,4,0.5)
-    smos['smo14'] = gate(4,10,0.5)
-    smos['smo20'] = gate(4,16,0.5)
+    smos['smo6'] = gate('smo6',2,4,0.5)
+    smos['smo14'] = gate('smo14',4,10,0.5)
+    smos['smo20'] = gate('smo20',4,16,0.5)
     print(smos)
 
     if the['help']:
