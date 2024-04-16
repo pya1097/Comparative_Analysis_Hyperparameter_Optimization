@@ -1,0 +1,38 @@
+
+_______________________________
+skopts1
+_______________________________
+
+
+the best params:OrderedDict([('C', 0.005597698829366019), ('fit_intercept', True), ('max_iter', 2386), ('penalty', 'none'), ('tol', 0.0016966446355667708)])
+the best value:0.8471272229822161
+
+the best params:OrderedDict([('C', 7.398935462472031e-05), ('fit_intercept', False), ('max_iter', 2657), ('penalty', 'l2'), ('tol', 0.0020029459877056012)])
+the best value:0.8467852257181943
+
+the best params:OrderedDict([('C', 5.321980887526123), ('fit_intercept', True), ('max_iter', 2909), ('penalty', 'l2'), ('tol', 0.0026414967051641685)])
+the best value:0.8481532147742818
+
+the best params:OrderedDict([('C', 0.00010008889219363576), ('fit_intercept', False), ('max_iter', 1832), ('penalty', 'none'), ('tol', 0.004412011174551494)])
+the best value:0.847469220246238
+
+the best params:OrderedDict([('C', 26752.87415937022), ('fit_intercept', True), ('max_iter', 1378), ('penalty', 'none'), ('tol', 0.008919160636124641)])
+the best value:0.8471272229822161
+
+the best params:OrderedDict([('C', 176.3780744416346), ('fit_intercept', True), ('max_iter', 1229), ('penalty', 'l2'), ('tol', 0.004372086223711883)])
+the best value:0.8471272229822161
+
+the best params:OrderedDict([('C', 497743.9581515861), ('fit_intercept', False), ('max_iter', 2730), ('penalty', 'none'), ('tol', 0.0018189494693542413)])
+the best value:0.847469220246238
+
+the best params:OrderedDict([('C', 3.334976658621654e-05), ('fit_intercept', True), ('max_iter', 1068), ('penalty', 'none'), ('tol', 0.008333453016096885)])
+the best value:0.8471272229822161
+
+the best params:OrderedDict([('C', 0.00030181464151728235), ('fit_intercept', True), ('max_iter', 928), ('penalty', 'l2'), ('tol', 0.00013681423565163828)])
+the best value:0.8467852257181943
+
+the best params:OrderedDict([('C', 0.020759047040715024), ('fit_intercept', False), ('max_iter', 1063), ('penalty', 'none'), ('tol', 0.006788226399469571)])
+the best value:0.847469220246238
+
+the best params:OrderedDict([('C', 153231.0205323909), ('fit_intercept', True), ('max_iter', 1609), ('penalty', 'none'), ('tol', 0.007737622162135263)])
+the best value:0.8471272229822161

@@ -1,0 +1,144 @@
+
+_______________________________
+skopts2
+_______________________________
+
+
+the best params:{'tol': 0.00044643086876700435, 'C': 0.06857939490494906, 'max_iter': 1900, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7595419847328244
+
+the best params:{'tol': 0.0009533057809888727, 'C': 0.13892005120354894, 'max_iter': 1400, 'fit_intercept': False, 'penalty': 'l2'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.000485022392243181, 'C': 0.7116612335094006, 'max_iter': 3000, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0007754261337710325, 'C': 0.014213016016601866, 'max_iter': 1300, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 4.771787438770293e-06, 'C': 0.06324410805470891, 'max_iter': 300, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.0003159119060639498, 'C': 0.011585875851484793, 'max_iter': 2400, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0003845105072334847, 'C': 0.1984834863765281, 'max_iter': 4600, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 3.2618516697421724e-05, 'C': 0.18266500194561971, 'max_iter': 100, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0007385549027798837, 'C': 0.5677215912463379, 'max_iter': 3500, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7748091603053435
+
+the best params:{'tol': 0.00016657092419867524, 'C': 0.13733437821188216, 'max_iter': 200, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.00012658303771265002, 'C': 0.01295624361877187, 'max_iter': 600, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.0005921449588288618, 'C': 0.05388244901118858, 'max_iter': 4400, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7557251908396947
+
+the best params:{'tol': 0.00027992194960921616, 'C': 0.6212069882529423, 'max_iter': 400, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 7.442603398021978e-05, 'C': 0.0653084208875663, 'max_iter': 2300, 'fit_intercept': False, 'penalty': 'l2'}
+the best value:0.7557251908396947
+
+the best params:{'tol': 0.0008518645856067746, 'C': 0.08264670692795506, 'max_iter': 100, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7595419847328244
+
+the best params:{'tol': 0.0009018755221609712, 'C': 0.9434573241953161, 'max_iter': 2400, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0004166909670131665, 'C': 0.09097892928165505, 'max_iter': 2500, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.0009859361966594819, 'C': 0.20412297059562182, 'max_iter': 800, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.0006917097935190302, 'C': 0.17760562803001853, 'max_iter': 1200, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0001360264272391942, 'C': 0.2070725812826808, 'max_iter': 4800, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+*****************************
+Average optimal accuracy:0.7715648854961831
+*****************************
+
+_______________________________
+skopts3
+_______________________________
+
+
+the best params:{'tol': 0.0007645597140628928, 'C': 0.7635242973740747, 'max_iter': 1500, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0008709341377628493, 'C': 0.01555982520222012, 'max_iter': 4000, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.0008308694899583387, 'C': 0.17606757763705183, 'max_iter': 400, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7824427480916031
+
+the best params:{'tol': 0.00047071843884953014, 'C': 0.2174728929120837, 'max_iter': 1900, 'fit_intercept': False, 'penalty': 'l2'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 4.5997774280053044e-05, 'C': 0.566766756670933, 'max_iter': 1800, 'fit_intercept': False, 'penalty': 'l2'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0004000670447325743, 'C': 0.40381340575545244, 'max_iter': 3400, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.00029669384498427065, 'C': 0.5327596625186811, 'max_iter': 2100, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.00039015565260631637, 'C': 0.20886375909784713, 'max_iter': 200, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0009591217502203698, 'C': 0.2965589930250634, 'max_iter': 1000, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.0009382461401579805, 'C': 0.01406045604480157, 'max_iter': 2000, 'fit_intercept': True, 'penalty': 'none'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.000870792179243648, 'C': 0.16395578862411211, 'max_iter': 4100, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0004994990829898699, 'C': 0.9581536804001792, 'max_iter': 3500, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0006173980023493771, 'C': 0.24719696234161279, 'max_iter': 5000, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.000625572385831551, 'C': 0.17872139638535123, 'max_iter': 4200, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7824427480916031
+
+the best params:{'tol': 0.0007263382505028011, 'C': 0.14809792039082434, 'max_iter': 5000, 'fit_intercept': False, 'penalty': 'none'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0006749941580790245, 'C': 0.6987911791032849, 'max_iter': 2300, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7709923664122137
+
+the best params:{'tol': 0.0006738571381659349, 'C': 0.25277029235698734, 'max_iter': 3200, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7824427480916031
+
+the best params:{'tol': 0.0008150305336684374, 'C': 0.15530371412415706, 'max_iter': 1200, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7824427480916031
+
+the best params:{'tol': 0.00018950095108803783, 'C': 0.6849380973882819, 'max_iter': 3900, 'fit_intercept': False, 'penalty': 'l2'}
+the best value:0.7786259541984732
+
+the best params:{'tol': 0.0002550908866168788, 'C': 0.12634214066505195, 'max_iter': 2500, 'fit_intercept': True, 'penalty': 'l2'}
+the best value:0.7786259541984732
+*****************************
+Average optimal accuracy:0.7774809160305342
+*****************************
+
+*****************
+
+*****************
+{'skopt2': [0.7595419847328244, 0.7709923664122137, 0.7786259541984732, 0.7786259541984732, 0.7709923664122137, 0.7786259541984732, 0.7786259541984732, 0.7786259541984732, 0.7748091603053435, 0.7709923664122137, 0.7709923664122137, 0.7557251908396947, 0.7786259541984732, 0.7557251908396947, 0.7595419847328244, 0.7786259541984732, 0.7709923664122137, 0.7709923664122137, 0.7786259541984732, 0.7709923664122137], 'skopt3': [0.7786259541984732, 0.7709923664122137, 0.7824427480916031, 0.7709923664122137, 0.7786259541984732, 0.7786259541984732, 0.7786259541984732, 0.7786259541984732, 0.7709923664122137, 0.7709923664122137, 0.7786259541984732, 0.7786259541984732, 0.7786259541984732, 0.7824427480916031, 0.7786259541984732, 0.7709923664122137, 0.7824427480916031, 0.7824427480916031, 0.7786259541984732, 0.7786259541984732]}
+*****************
+
+*****************
