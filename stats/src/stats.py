@@ -117,7 +117,7 @@ def sk(nums):
       for num in nums: num.rank = rank
     return rank
   #------------ 
-  nums = sorted(nums, key=lambda num:num.mid())
+  nums = sorted(nums, key=lambda num:num.mid(), reverse=True)
   sk1(nums,0)
   return nums
 
@@ -129,10 +129,10 @@ def eg0(nums):
   last = None
   file_output = 'stats_output.txt'
   for num in sk(nums):
-    if num.rank != last: print("#\n")
+    if num.rank != last: print("\n#\n")
     if num.rank != last:
       with open(file_output, 'a') as file:
-        file.write("#")
+        file.write("\n#\n")
     last=num.rank
     stat_str = all.bar(num,width=40,word="%20s", fmt="%5.2f")
     print(stat_str)
