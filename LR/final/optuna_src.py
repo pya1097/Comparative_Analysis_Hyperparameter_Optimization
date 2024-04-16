@@ -32,7 +32,8 @@ def objective(trial):
     accuracy = logistic.fit(X_train, y_train).score(X_test, y_test)
     return accuracy
 
-inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
+# inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
+inputs = ['digits','breastcancer']
 n_trials_list = [2,3] #50,100,200,500
 iters = 20
 
