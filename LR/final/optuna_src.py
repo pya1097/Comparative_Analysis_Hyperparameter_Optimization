@@ -37,9 +37,11 @@ inputs = ['digits','breastcancer']
 n_trials_list = [2,3] #50,100,200,500
 iters = 20
 
+res = {}
 for inputf in inputs:
     acc_dict = {}
     time_dict = {}
+    res[inputf] = {}
     for n_trials in n_trials_list:
         start_time = time.time()
         with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
@@ -62,7 +64,10 @@ for inputf in inputs:
             file.write('\n*****************************\nAverage optimal accuracy:' + str(acc/iters)+'\n*****************************\n')
         end_time = time.time()
         acc_dict['optuna'+str(n_trials)] = acc_list
+        res[inputf]['optuna'+str(n_trials)] = acc_list
         time_dict['optuna'+str(n_trials)] = end_time - start_time
     with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
         file.write('\n---------------------\nAccuracy\n---------------------\n' + str(acc_dict)+'\n---------------------\n')
         file.write('\n---------------------\nTime\n---------------------\n' + str(time_dict)+'\n---------------------\n')
+with open((os.path.join(output_dir,'optuna_final.txt')), 'a') as file:
+    file.write('\n---------------------\nAggregate\n---------------------\n' + str(res)+'\n---------------------\n')
