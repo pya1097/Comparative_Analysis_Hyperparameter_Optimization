@@ -7,6 +7,7 @@ from skopt.space import Real, Categorical, Integer
 import warnings
 import os
 import shutil
+import time
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(script_dir, 'skopt_outputs')
@@ -42,10 +43,10 @@ for inputf in inputs:
     acc_dict = {}
     time_dict = {}
     for n_trials in n_trials_list:
+        start_time = time.time()
         with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
             file.write('\n_______________________________\nskopts' + str(n_trials)+'\n_______________________________\n')
         acc_list = []
-        time_list = []
         acc = 0
         i = iters
         while i > 0:
@@ -62,10 +63,11 @@ for inputf in inputs:
                 file.write('\nthe best value:' + str(opt.best_score_))
             i -= 1
         with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
-            file.write('\n*****************************\nAverage optimal accuracy:' + str(acc/iters)+'\n'+'\n*****************************\n')
+            file.write('\n*****************************\nAverage optimal accuracy:' + str(acc/iters)+'\n*****************************\n')
+        end_time = time.time()
         acc_dict['skopt'+str(n_trials)] = acc_list
-        time_dict['skopt'+str(n_trials)] = time_list
+        time_dict['skopt'+str(n_trials)] = end_time - start_time
     with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
-        file.write('\n*****************\nAccuracy\n*****************\n' + str(acc_dict)+'\n*****************\n\n*****************\n')
-        file.write('\n*****************\nTime\n*****************\n' + str(time_dict)+'\n*****************\n\n*****************\n')
+        file.write('\n---------------------\nAccuracy\n---------------------\n' + str(acc_dict)+'\n---------------------\n')
+        file.write('\n---------------------\nTime\n---------------------\n' + str(time_dict)+'\n---------------------\n')
     

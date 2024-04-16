@@ -6,6 +6,7 @@ import optuna
 import warnings
 import os
 import shutil
+import time
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(script_dir, 'optuna_outputs')
@@ -37,9 +38,11 @@ iters = 20
 
 for inputf in inputs:
     acc_dict = {}
+    time_dict = {}
     for n_trials in n_trials_list:
+        start_time = time.time()
         with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
-            file.write('\n_______________________________\optuna' + str(n_trials)+'\n_______________________________\n')
+            file.write('\n_______________________________\noptuna' + str(n_trials)+'\n_______________________________\n')
         acc_list = []
         acc = 0
         i = iters
@@ -56,6 +59,9 @@ for inputf in inputs:
             i -= 1
         with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
             file.write('\n*****************************\nAverage optimal accuracy:' + str(acc/iters)+'\n*****************************\n')
+        end_time = time.time()
         acc_dict['optuna'+str(n_trials)] = acc_list
+        time_dict['optuna'+str(n_trials)] = end_time - start_time
     with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
-        file.write('\n*****************\n\n*****************\n' + str(acc_dict)+'\n*****************\n\n*****************\n')
+        file.write('\n---------------------\nAccuracy\n---------------------\n' + str(acc_dict)+'\n---------------------\n')
+        file.write('\n---------------------\nTime\n---------------------\n' + str(time_dict)+'\n---------------------\n')
