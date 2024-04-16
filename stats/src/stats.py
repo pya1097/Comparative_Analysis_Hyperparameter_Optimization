@@ -45,26 +45,23 @@ class SAMPLE:
     return has[len(has)//2]
 
   def bar(self, num, fmt="%8.3f", word="%10s", width=50):
-    # print("------------starttttt-------------------")
-    # print(len(num.has))
+
     out  = [' '] * width
-    # print(out)
+
     pos = lambda x: int(width * (x - self.lo) / (self.hi - self.lo + 1E-30))
-    # print(pos)
+
     has = num.ok().has
-    # print(has)
+
     [a, b, c, d, e]  = [has[int(len(has)*x)] for x in [0.5,0.25,0.5,0.75,0.95]]
     [na,nb,nc,nd,ne] = [pos(x) for x in [a,b,c,d,e]]
-    # print([a, b, c, d, e] )
-    # print([na,nb,nc,nd,ne])
+
     for i in range(nb,nd): out[i] = "-"
-    #for i in range(nd,ne): out[i] = "-"
     
     out[width//2] = "|"
-    # print(len(out))
+
     nc = nc if nc<40 else 39
     out[nc] = "*"
-    # print("----------------")
+
     return ', '.join(["%2d" % num.rank, word % num.txt, fmt%c, fmt%(d-b),  
                       ''.join(out), fmt%self.lo,      fmt%self.hi ]) #, ', '.join([(fmt % x) for x in [a,b,c,d,e]])])
 
@@ -130,10 +127,17 @@ def egSlurp():
 def eg0(nums):
   all = SAMPLE([x for num in nums for x in num.has])
   last = None
+  file_output = 'stats_output.txt'
   for num in sk(nums):
-    if num.rank != last: print("#")
+    if num.rank != last: print("#\n")
+    if num.rank != last:
+      with open(file_output, 'a') as file:
+        file.write("#")
     last=num.rank
-    print(all.bar(num,width=40,word="%20s", fmt="%5.2f"))
+    stat_str = all.bar(num,width=40,word="%20s", fmt="%5.2f")
+    print(stat_str)
+    with open(file_output, 'a') as file:
+      file.write("\n"+stat_str)
     
 def eg1():
   x=1
