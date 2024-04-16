@@ -24,7 +24,7 @@ def objective(trial):
         'C' : trial.suggest_loguniform("C", 1e-2, 1),
         'max_iter' : trial.suggest_int('max_iter', 100, 5000, step=100),
         'fit_intercept' : trial.suggest_categorical('fit_intercept', [True, False]),
-        'penalty' : trial.suggest_categorical('penalty', ['l2', 'none'])
+        'penalty' : trial.suggest_categorical('penalty', ['l2', 'none']) #python3 None python 'none'
     }
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=23)
@@ -32,9 +32,9 @@ def objective(trial):
     accuracy = logistic.fit(X_train, y_train).score(X_test, y_test)
     return accuracy
 
-# inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
-inputs = ['digits','breastcancer']
-n_trials_list = [2,3] #50,100,200,500
+inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
+# inputs = ['digits','breastcancer']
+n_trials_list = [6,12,20,60,100] #50,100,200,500
 iters = 20
 
 res = {}

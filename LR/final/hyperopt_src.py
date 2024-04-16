@@ -26,9 +26,9 @@ def objective(params):
 
   return -accuracy
 
-# inputs = ['digits','gendervoice','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','possum']
-inputs = ['digits','breastcancer']
-n_trials_list = [1,2] #50,100,200,500
+inputs = ['digits','gendervoice','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','possum']
+# inputs = ['digits','breastcancer']
+n_trials_list = [6,12,20,60,100] #50,100,200,500
 iters =20
 
 params = {
