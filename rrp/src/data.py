@@ -72,7 +72,7 @@ class DATA:
             newData.add(row)
         return newData
 
-    def farapart(self, rows, sortp, a=None, b=None, far=None, evals=0):
+    def farapart(self,input, rows, sortp, a=None, b=None, far=None, evals=0):
         far = int(len(rows) * 0.95) + 1
         evals = 1 if a is not None else 2
         
@@ -82,15 +82,15 @@ class DATA:
         a = a or sorted_neighbors[0]
         b = sorted_neighbors[min(far, len(sorted_neighbors) - 1)]
         
-        if sortp and b.d2h(self) > a.d2h(self):
+        if sortp and b.d2h(input,self) > a.d2h(input,self):
             a, b = b, a
         
         return a, b, a.dist(b, self), evals
     
-    def half(self, rows, sortp, before):
+    def half(self, input, rows, sortp, before):
         the_half = min(len(rows) // 2, len(rows))
         some = random.sample(rows, the_half)
-        a, b, C, evals = self.farapart(some, sortp, before)
+        a, b, C, evals = self.farapart(input,some, sortp, before)
         def d(row1, row2):
             return row1.dist(row2, self)
         
@@ -103,7 +103,7 @@ class DATA:
         return as_, bs, a, b, C, d(a, bs[0]), evals
     
     
-    def branch(self, stop=None, rest=None, _branch=None, evals=None):
+    def branch(self,input, stop=None, rest=None, _branch=None, evals=None):
         evals, rest = 1, []
         stop = stop or (2 * (len(self.rows) ** 0.5))
 
@@ -111,7 +111,7 @@ class DATA:
             nonlocal evals, rest
 
             if len(data.rows) > stop:
-                lefts, rights, left, _, _, _, _  = self.half(data.rows, True, above)
+                lefts, rights, left, _, _, _, _  = self.half(input,data.rows, True, above)
                 evals += 1
                 for row1 in rights:
                     rest.append(row1)

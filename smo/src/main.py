@@ -6,7 +6,7 @@ import json
 import time
 
 inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
-
+# inputs = ['digits']
 
 def gate(treatement, budget0, budget, some,input):
         score = []
@@ -26,6 +26,7 @@ if __name__ == "__main__":
     file_path = the['file']
     smos = {}
 
+    start_time_0 = time.time()
     file_output = 'smo_output.txt'
     for input in inputs:
         start_time_1 = time.time()
@@ -61,9 +62,9 @@ if __name__ == "__main__":
 
         end_time_1 = time.time()
         with open(file_output, 'a') as file:
-            file.write('\n*****************\FINAL\n*****************\n' + str(smos[input])+'\nTime taken: ' + str(end_time_1 - start_time_1) + ' seconds\n*****************\n\n*****************\n')
+            file.write('\n*****************\nFINAL\n*****************\n' + str(smos[input])+'\nTime taken: ' + str(end_time_1 - start_time_1) + ' seconds\n*****************\n\n*****************\n')
             file.write('\n_______________________________\nEND for dataset ' + str(input)+'\n_______________________________\n')
 
-    
+    end_time_0 = time.time()
     with open(file_output, 'a') as file:
-        file.write('\n*****************\FINAL SMO OUTPUT ENTIRE DATA LIST\n*****************\n' + str(smos)+'\nTime taken: ' + str(end_time_1 - start_time_1) + '\n*****************\n\n*****************\n')
+        file.write('\n*****************\nFINAL SMO OUTPUT ENTIRE DATA LIST\n*****************\n' + str(smos)+'\nTime taken: ' + str(end_time_0 - start_time_0) + '\n*****************\n\n*****************\n')
