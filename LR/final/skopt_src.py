@@ -69,7 +69,8 @@ for inputf in inputs:
             file.write('\n*****************************\nAverage optimal accuracy:' + str(acc/iters)+'\n*****************************\n')
         end_time = time.time()
         acc_dict['skopt'+str(n_trials)] = acc_list
-        res[inputf]['skopt'+str(n_trials)] = acc_list
+        acc_r_list = [round(x, 2) for x in acc_list]
+        res[inputf]['skopt'+str(n_trials)] = acc_r_list
         time_dict['skopt'+str(n_trials)] = end_time - start_time
     with open((os.path.join(output_dir,inputf+'.txt')), 'a') as file:
         file.write('\n---------------------\nAccuracy\n---------------------\n' + str(acc_dict)+'\n---------------------\n')
