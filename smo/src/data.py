@@ -53,7 +53,7 @@ class DATA:
 
     
     
-    def gate(self, randomSeed, budget0, budget, some):
+    def gate(self, randomSeed, budget0, budget, some,input):
         random.seed(randomSeed)
 
         rows = random.sample(self.rows, len(self.rows))
@@ -63,7 +63,7 @@ class DATA:
         
         stats, bests = [], []
         for i in range(budget):
-            best, rest = self.best_rest(lite, len(lite)**some)
+            best, rest = self.best_rest(lite, len(lite)**some,input)
             todo, selected = self.split(best, rest, lite, dark)
 
             stats.append(selected.mid())
@@ -71,7 +71,7 @@ class DATA:
             lite.append(dark.pop(todo))
 
 
-        lite.sort(key=lambda a: a.d2h(),reverse=True)
+        lite.sort(key=lambda a: a.d2h(input),reverse=True)
         # for best in lite:
         #     print(best.cells)
 
@@ -91,8 +91,8 @@ class DATA:
                 out, max_value = i, tmp
         return out, selected
 
-    def best_rest(self, rows, want):
-        rows.sort(key=lambda a: a.d2h(self), reverse=True)
+    def best_rest(self, rows, want,input):
+        rows.sort(key=lambda a: a.d2h(input,self), reverse=True)
         best = DATA(self.cols.names)
         rest = DATA(self.cols.names)
         for i, row in enumerate(rows):

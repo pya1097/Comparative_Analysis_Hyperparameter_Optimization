@@ -7,27 +7,21 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 import warnings
+from sklearn.exceptions import DataConversionWarning,ConvergenceWarning
 
 class ROW:
     # Initializing ROW instance
     def __init__(self, t):
         self.cells = t
 
-    # ROW class methods
-        
-    # Method to calculate distancce to heaven
-    # def d2h(self, data):
-    #     d, n = 0, 0
-    #     for col in data.cols.y:
-    #         n = n + 1
-    #         d = d + abs(col.heaven - col.norm(self.cells[col.at]))**2
-    #     return (d**0.5)/(n**0.5)
 
-    def d2h(self, data=None):
+    def d2h(self,input, data=None):
         warnings.filterwarnings("ignore", message="Setting penalty=None will ignore the C and l1_ratio parameters")
+        warnings.filterwarnings("ignore", category=DataConversionWarning)
+        warnings.filterwarnings("ignore", category=ConvergenceWarning)
         if(len(self.cells)==6):
-            X, y = datasets.load_iris(return_X_y=True)
-            X = X / X.max()
+            X, y = pd.read_csv("LR/final/"+input+"_X.csv"),pd.read_csv("LR/final/"+input+"_y.csv")
+            # X = X / X.max()
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=23)
             logistic = linear_model.LogisticRegression(max_iter=int(self.cells[0]), C=(self.cells[1]), tol=self.cells[2], fit_intercept=self.cells[3], dual=self.cells[4], penalty=self.cells[5])
             score = round(logistic.fit(X_train, y_train).score(X_test, y_test),3)
