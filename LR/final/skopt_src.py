@@ -27,14 +27,14 @@ def objective(params):
 
   return -accuracy
 
-# inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
-inputs = ['digits','breastcancer']
-n_trials_list = [1,2] #50,100,200,500
+inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
+# inputs = ['digits','breastcancer']
+n_trials_list = [10,50,100,200,500] #50,100,200,500
 iters =20
 
 param_space = {
     'C': Real(1e-6, 1e+6, prior='log-uniform'),
-    'penalty': Categorical(['none', 'l2']),
+    'penalty': Categorical([None, 'l2']),
     'max_iter': Integer(50, 5000),
     'tol': Real(1e-6, 1e-2, prior='uniform'),
     'fit_intercept': Categorical([True, False])

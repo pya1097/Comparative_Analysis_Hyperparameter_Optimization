@@ -6,7 +6,7 @@ import json
 import time
 
 inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
-# inputs = ['digits']
+# inputs = ['digits','breastcancer','iris']
 
 def gate(treatement, budget0, budget, some,input):
         score = []
