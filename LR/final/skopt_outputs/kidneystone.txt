@@ -1,0 +1,352 @@
+
+_______________________________
+skopts6
+_______________________________
+
+
+the best params:OrderedDict([('C', 2.4389622224782884e-06), ('fit_intercept', True), ('max_iter', 3633), ('penalty', None), ('tol', 0.0009623001028234352)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.6102302234424413), ('fit_intercept', True), ('max_iter', 4667), ('penalty', 'l2'), ('tol', 0.002290703421136803)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.5443548319124088e-05), ('fit_intercept', True), ('max_iter', 2342), ('penalty', 'l2'), ('tol', 0.001592098766047929)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2627.811718588189), ('fit_intercept', True), ('max_iter', 1038), ('penalty', 'l2'), ('tol', 0.006191186680170164)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 263.8662367366391), ('fit_intercept', True), ('max_iter', 1758), ('penalty', 'l2'), ('tol', 0.004106267079148181)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2.9834941722301123), ('fit_intercept', True), ('max_iter', 3466), ('penalty', 'l2'), ('tol', 0.008594862041961552)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 7209.693552768945), ('fit_intercept', True), ('max_iter', 1448), ('penalty', 'l2'), ('tol', 0.00849130999258266)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.7966190661869273), ('fit_intercept', True), ('max_iter', 4019), ('penalty', 'l2'), ('tol', 0.0009188718729893389)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 49.00275088775994), ('fit_intercept', True), ('max_iter', 1021), ('penalty', None), ('tol', 0.004959477202476479)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.0004403628145286795), ('fit_intercept', True), ('max_iter', 2136), ('penalty', None), ('tol', 0.009265927184250513)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.24736521787100998), ('fit_intercept', True), ('max_iter', 293), ('penalty', 'l2'), ('tol', 0.00954653600217212)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.7355129203295066e-06), ('fit_intercept', True), ('max_iter', 2829), ('penalty', 'l2'), ('tol', 0.0006621302677519246)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 180.56631946183845), ('fit_intercept', True), ('max_iter', 2226), ('penalty', None), ('tol', 0.00023322454892566128)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 10489.291268986564), ('fit_intercept', True), ('max_iter', 4829), ('penalty', 'l2'), ('tol', 0.006719434813451869)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.000985156236203442), ('fit_intercept', True), ('max_iter', 79), ('penalty', 'l2'), ('tol', 0.006062108837103506)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.007045572584145739), ('fit_intercept', True), ('max_iter', 3095), ('penalty', 'l2'), ('tol', 0.007564147452361217)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.6151478221051127), ('fit_intercept', True), ('max_iter', 742), ('penalty', 'l2'), ('tol', 0.0016009134200196515)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 197.2592674320488), ('fit_intercept', True), ('max_iter', 2689), ('penalty', 'l2'), ('tol', 0.0012252900166068923)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.002053684775560165), ('fit_intercept', True), ('max_iter', 2788), ('penalty', 'l2'), ('tol', 0.0036128370417875966)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 424.3837916983888), ('fit_intercept', True), ('max_iter', 302), ('penalty', None), ('tol', 0.0044598304739697624)])
+the best value:0.8035714285714286
+*****************************
+Average optimal accuracy:0.8035714285714286
+*****************************
+
+_______________________________
+skopts14
+_______________________________
+
+
+the best params:OrderedDict([('C', 430976.17056018324), ('fit_intercept', True), ('max_iter', 494), ('penalty', 'l2'), ('tol', 0.000450539462448503)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.48080090001875037), ('fit_intercept', True), ('max_iter', 387), ('penalty', 'l2'), ('tol', 0.004884296036449528)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 41.84223381228695), ('fit_intercept', True), ('max_iter', 4973), ('penalty', None), ('tol', 0.007045067638386207)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 67.9719094837859), ('fit_intercept', True), ('max_iter', 125), ('penalty', None), ('tol', 0.005785159569971026)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 80705.6551115883), ('fit_intercept', True), ('max_iter', 106), ('penalty', 'l2'), ('tol', 0.008882536053526235)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.04209772555685785), ('fit_intercept', True), ('max_iter', 2952), ('penalty', 'l2'), ('tol', 0.00031987925634501137)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 9.869373591196812e-05), ('fit_intercept', True), ('max_iter', 1163), ('penalty', 'l2'), ('tol', 0.0014717428506021125)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.00031112437276897755), ('fit_intercept', True), ('max_iter', 594), ('penalty', 'l2'), ('tol', 0.0025405832734151025)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.0031292797345755003), ('fit_intercept', True), ('max_iter', 2271), ('penalty', 'l2'), ('tol', 0.009295139084672948)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 5.533680431007525), ('fit_intercept', True), ('max_iter', 2383), ('penalty', None), ('tol', 0.005817639193073331)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 230125.09832107608), ('fit_intercept', True), ('max_iter', 789), ('penalty', None), ('tol', 0.0017370236745736678)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.028294102424643083), ('fit_intercept', True), ('max_iter', 4094), ('penalty', None), ('tol', 0.009567774018326475)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.00041816911788692003), ('fit_intercept', True), ('max_iter', 3094), ('penalty', None), ('tol', 0.006806520899689932)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.0001288821491823009), ('fit_intercept', True), ('max_iter', 1046), ('penalty', 'l2'), ('tol', 0.005357988255151608)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 60.719837741417074), ('fit_intercept', True), ('max_iter', 2659), ('penalty', None), ('tol', 0.009347092540930226)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 34833.056440707565), ('fit_intercept', True), ('max_iter', 1206), ('penalty', 'l2'), ('tol', 0.0038097437692187104)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 6898.792441371608), ('fit_intercept', True), ('max_iter', 1818), ('penalty', None), ('tol', 0.0005733440874608855)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1045.275154868453), ('fit_intercept', True), ('max_iter', 2837), ('penalty', None), ('tol', 0.004921174350273477)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 4.676129646959314e-05), ('fit_intercept', True), ('max_iter', 751), ('penalty', 'l2'), ('tol', 0.0071560168609805744)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.00437432537532623), ('fit_intercept', True), ('max_iter', 3418), ('penalty', 'l2'), ('tol', 0.004158296334705316)])
+the best value:0.8035714285714286
+*****************************
+Average optimal accuracy:0.8035714285714286
+*****************************
+
+_______________________________
+skopts20
+_______________________________
+
+
+the best params:OrderedDict([('C', 9.072808112476462e-06), ('fit_intercept', True), ('max_iter', 815), ('penalty', None), ('tol', 0.004811320409667015)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.14933016085015693), ('fit_intercept', True), ('max_iter', 752), ('penalty', None), ('tol', 0.006128309732861305)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.18731402704391317), ('fit_intercept', True), ('max_iter', 4631), ('penalty', None), ('tol', 0.006058545044902184)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.1205681595481245e-05), ('fit_intercept', True), ('max_iter', 1773), ('penalty', 'l2'), ('tol', 0.006015404884316669)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 20444.754653147105), ('fit_intercept', True), ('max_iter', 911), ('penalty', 'l2'), ('tol', 0.004322758183342362)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.14818116418026858), ('fit_intercept', True), ('max_iter', 2893), ('penalty', None), ('tol', 0.0014087304433567016)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 20.396093760858193), ('fit_intercept', True), ('max_iter', 3363), ('penalty', None), ('tol', 0.005534500738317969)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 176919.01544930914), ('fit_intercept', True), ('max_iter', 621), ('penalty', None), ('tol', 0.009953448042218437)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2.558974928686638e-05), ('fit_intercept', True), ('max_iter', 4653), ('penalty', 'l2'), ('tol', 0.004118069010434807)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 323.09084260258766), ('fit_intercept', True), ('max_iter', 2483), ('penalty', None), ('tol', 0.009130683024899364)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.012267906356624152), ('fit_intercept', True), ('max_iter', 3056), ('penalty', 'l2'), ('tol', 0.007727088570729396)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 3364.5446964278917), ('fit_intercept', True), ('max_iter', 4398), ('penalty', 'l2'), ('tol', 0.009024987262934324)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.004963741123644853), ('fit_intercept', True), ('max_iter', 1750), ('penalty', None), ('tol', 0.007965415719416113)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.0013493609453265137), ('fit_intercept', True), ('max_iter', 1715), ('penalty', None), ('tol', 0.003540938188985896)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.00037359871599900666), ('fit_intercept', True), ('max_iter', 1267), ('penalty', None), ('tol', 0.0010207643618806712)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 635.9611962258333), ('fit_intercept', True), ('max_iter', 4631), ('penalty', 'l2'), ('tol', 0.004909246809508104)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.00010096255375102735), ('fit_intercept', True), ('max_iter', 1740), ('penalty', None), ('tol', 0.008109278852232211)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 430.19469543605527), ('fit_intercept', True), ('max_iter', 187), ('penalty', 'l2'), ('tol', 0.003504995275836774)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.2862750502175577e-05), ('fit_intercept', True), ('max_iter', 1019), ('penalty', None), ('tol', 0.008924525692539778)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.00021802197797466703), ('fit_intercept', True), ('max_iter', 1487), ('penalty', 'l2'), ('tol', 3.0465262448568402e-05)])
+the best value:0.8035714285714286
+*****************************
+Average optimal accuracy:0.8035714285714286
+*****************************
+
+_______________________________
+skopts60
+_______________________________
+
+
+the best params:OrderedDict([('C', 6.895807911964957), ('fit_intercept', True), ('max_iter', 2055), ('penalty', None), ('tol', 0.004830835441082544)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.003346537926602991), ('fit_intercept', True), ('max_iter', 4407), ('penalty', 'l2'), ('tol', 0.0019284573637329376)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2450.1482759546693), ('fit_intercept', True), ('max_iter', 2147), ('penalty', None), ('tol', 0.0028221313706264916)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 85.58812844911698), ('fit_intercept', True), ('max_iter', 2306), ('penalty', None), ('tol', 0.005585427987999877)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 6195.238213754119), ('fit_intercept', True), ('max_iter', 2734), ('penalty', None), ('tol', 0.003840776757081966)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 273.13417328406126), ('fit_intercept', True), ('max_iter', 3672), ('penalty', 'l2'), ('tol', 0.009299574633832065)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2.0365071897726034e-06), ('fit_intercept', True), ('max_iter', 2931), ('penalty', None), ('tol', 0.001569687616695661)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 15.005760094253041), ('fit_intercept', True), ('max_iter', 3255), ('penalty', 'l2'), ('tol', 0.009414300815768)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.0002119698017417646), ('fit_intercept', True), ('max_iter', 3254), ('penalty', 'l2'), ('tol', 0.009027963263739218)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 19936.694241137964), ('fit_intercept', True), ('max_iter', 1067), ('penalty', 'l2'), ('tol', 0.0017253460256498369)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.00028993286715426356), ('fit_intercept', True), ('max_iter', 4508), ('penalty', 'l2'), ('tol', 0.004544447400112644)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2.7618084837873562e-05), ('fit_intercept', True), ('max_iter', 1771), ('penalty', 'l2'), ('tol', 0.00033136939697400557)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.02098263769205767), ('fit_intercept', True), ('max_iter', 4163), ('penalty', None), ('tol', 0.006128064030140004)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.25940711227949825), ('fit_intercept', True), ('max_iter', 1111), ('penalty', 'l2'), ('tol', 0.0032044202533236445)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 4.38108123241575e-05), ('fit_intercept', True), ('max_iter', 4027), ('penalty', 'l2'), ('tol', 0.00796197491430042)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.768365778914271), ('fit_intercept', True), ('max_iter', 1996), ('penalty', 'l2'), ('tol', 0.0077334652819349425)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 4.570138440944555e-06), ('fit_intercept', True), ('max_iter', 3728), ('penalty', 'l2'), ('tol', 0.00865443661142598)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 4.2364177866974355), ('fit_intercept', True), ('max_iter', 3584), ('penalty', 'l2'), ('tol', 0.004994741766911371)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 59.44843279804994), ('fit_intercept', True), ('max_iter', 3113), ('penalty', 'l2'), ('tol', 0.0008674987034764264)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 337028.3354554444), ('fit_intercept', True), ('max_iter', 4698), ('penalty', 'l2'), ('tol', 0.009091874244371488)])
+the best value:0.8035714285714286
+*****************************
+Average optimal accuracy:0.8035714285714286
+*****************************
+
+_______________________________
+skopts100
+_______________________________
+
+
+the best params:OrderedDict([('C', 27676.026015242973), ('fit_intercept', True), ('max_iter', 2332), ('penalty', 'l2'), ('tol', 0.00012829959472975257)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 5.142818439350055), ('fit_intercept', True), ('max_iter', 1101), ('penalty', 'l2'), ('tol', 0.00506387155544669)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1180.3794542067496), ('fit_intercept', True), ('max_iter', 3530), ('penalty', None), ('tol', 0.009541870018567747)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 11442.455319542529), ('fit_intercept', True), ('max_iter', 3403), ('penalty', None), ('tol', 0.004100114119668032)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 126.91733382171553), ('fit_intercept', True), ('max_iter', 1926), ('penalty', 'l2'), ('tol', 0.008818257401326027)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 77273.08176183513), ('fit_intercept', True), ('max_iter', 4996), ('penalty', 'l2'), ('tol', 0.004133167884987347)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.8756016704927925), ('fit_intercept', True), ('max_iter', 614), ('penalty', None), ('tol', 0.0052712370352991115)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 17.788947164491315), ('fit_intercept', True), ('max_iter', 165), ('penalty', 'l2'), ('tol', 0.00359667912215753)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.0229374727573306), ('fit_intercept', True), ('max_iter', 1450), ('penalty', 'l2'), ('tol', 0.00356298166228857)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.3056120495734774), ('fit_intercept', True), ('max_iter', 3918), ('penalty', None), ('tol', 0.006816699347300696)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 36.19588732238733), ('fit_intercept', True), ('max_iter', 4643), ('penalty', 'l2'), ('tol', 0.0034459829838901297)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 8523.606808804694), ('fit_intercept', True), ('max_iter', 1378), ('penalty', None), ('tol', 0.004022762542406114)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2.964203890742367e-05), ('fit_intercept', True), ('max_iter', 4737), ('penalty', 'l2'), ('tol', 0.007279600206095382)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 2.0503398129428327), ('fit_intercept', True), ('max_iter', 2610), ('penalty', None), ('tol', 0.004388790688837014)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.010427238346245612), ('fit_intercept', True), ('max_iter', 3782), ('penalty', 'l2'), ('tol', 0.009252449798595564)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 1.9718666022952528e-05), ('fit_intercept', True), ('max_iter', 2039), ('penalty', None), ('tol', 0.008402069506023827)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 44165.04716537538), ('fit_intercept', True), ('max_iter', 2889), ('penalty', 'l2'), ('tol', 0.00027989334995704346)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.028488244781963958), ('fit_intercept', True), ('max_iter', 1751), ('penalty', None), ('tol', 0.0003179581206710278)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 6.83555690373181e-05), ('fit_intercept', True), ('max_iter', 4357), ('penalty', 'l2'), ('tol', 0.00937737311061854)])
+the best value:0.8035714285714286
+
+the best params:OrderedDict([('C', 0.003386209365134499), ('fit_intercept', True), ('max_iter', 4933), ('penalty', 'l2'), ('tol', 0.005422786671825546)])
+the best value:0.8035714285714286
+*****************************
+Average optimal accuracy:0.8035714285714286
+*****************************
+
+---------------------
+Accuracy
+---------------------
+{'skopt6': [0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286], 'skopt14': [0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286], 'skopt20': [0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286], 'skopt60': [0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286], 'skopt100': [0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286, 0.8035714285714286]}
+---------------------
+
+---------------------
+Time
+---------------------
+{'skopt6': 2.564286947250366, 'skopt14': 93.3840684890747, 'skopt20': 236.2696087360382, 'skopt60': 1657.1600096225739, 'skopt100': 3873.716559648514}
+---------------------

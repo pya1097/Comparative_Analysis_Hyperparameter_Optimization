@@ -1,0 +1,80 @@
+
+_______________________________
+skopts100
+_______________________________
+
+
+the best params:OrderedDict([('C', 195.77063598882944), ('fit_intercept', False), ('max_iter', 4312), ('penalty', 'l2'), ('tol', 0.009982214971115146)])
+the best value:0.6128133704735376
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4850), ('penalty', 'l2'), ('tol', 1e-06)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4104), ('penalty', 'l2'), ('tol', 0.00031152079417550777)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1930.9069510631684), ('fit_intercept', False), ('max_iter', 3431), ('penalty', None), ('tol', 0.009838872199331399)])
+the best value:0.6044568245125348
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4841), ('penalty', 'l2'), ('tol', 1e-06)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4186), ('penalty', 'l2'), ('tol', 1e-06)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 82.70420563119232), ('fit_intercept', True), ('max_iter', 4610), ('penalty', 'l2'), ('tol', 0.009767857925334206)])
+the best value:0.6100278551532033
+
+the best params:OrderedDict([('C', 3.73373920191391), ('fit_intercept', False), ('max_iter', 4073), ('penalty', 'l2'), ('tol', 0.009990589016816787)])
+the best value:0.6114206128133705
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4684), ('penalty', 'l2'), ('tol', 0.01)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4599), ('penalty', 'l2'), ('tol', 1e-06)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4429), ('penalty', 'l2'), ('tol', 0.005142111025779719)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4268), ('penalty', 'l2'), ('tol', 0.008475197789289181)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4328), ('penalty', 'l2'), ('tol', 1e-06)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 5309.818142802356), ('fit_intercept', True), ('max_iter', 4726), ('penalty', 'l2'), ('tol', 0.007721369283827478)])
+the best value:0.6114206128133706
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 4600), ('penalty', 'l2'), ('tol', 1e-06)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 0.00016461408235349527), ('fit_intercept', False), ('max_iter', 4898), ('penalty', 'l2'), ('tol', 0.01)])
+the best value:0.6114206128133705
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 5000), ('penalty', 'l2'), ('tol', 0.01)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1.3837805090233632e-06), ('fit_intercept', True), ('max_iter', 4724), ('penalty', 'l2'), ('tol', 0.005576524634966136)])
+the best value:0.6128133704735377
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', False), ('max_iter', 5000), ('penalty', 'l2'), ('tol', 1e-06)])
+the best value:0.6086350974930362
+
+the best params:OrderedDict([('C', 1.2378440418466474e-06), ('fit_intercept', False), ('max_iter', 3425), ('penalty', 'l2'), ('tol', 0.0013506510862242675)])
+the best value:0.6114206128133705
+*****************************
+Average optimal accuracy:0.6094707520891365
+*****************************
+
+---------------------
+Accuracy
+---------------------
+{'skopt100': [0.6128133704735376, 0.6086350974930362, 0.6086350974930362, 0.6044568245125348, 0.6086350974930362, 0.6086350974930362, 0.6100278551532033, 0.6114206128133705, 0.6086350974930362, 0.6086350974930362, 0.6086350974930362, 0.6086350974930362, 0.6086350974930362, 0.6114206128133706, 0.6086350974930362, 0.6114206128133705, 0.6086350974930362, 0.6128133704735377, 0.6086350974930362, 0.6114206128133705]}
+---------------------
+
+---------------------
+Time
+---------------------
+{'skopt100': 10215.923547029495}
+---------------------
