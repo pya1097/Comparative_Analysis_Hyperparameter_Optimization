@@ -1,0 +1,16 @@
+social networking ads: https://www.kaggle.com/datasets/dragonheir/logistic-regression
+heart disease: https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression
+Titanic: https://www.kaggle.com/datasets/heptapod/titanic
+Employee attrition: https://www.kaggle.com/code/priscillabaah/employee-attrition-analysis-logistic-regression/input?select=general_data.csv
+Pumpkin seeds: https://www.kaggle.com/code/demon2angel/pumpkin-seeds-classification-logistic-regression/input
+Marketing Campaign: https://www.kaggle.com/datasets/taseermehboob9/marketing-campaigns-logistic-regression/data
+bank loan: https://www.kaggle.com/datasets/vikramamin/bank-loan-approval-lr-dt-rf-and-auc/data
+date fruit dataset: https://www.kaggle.com/datasets/muratkokludataset/date-fruit-datasets
+fake bills: https://www.kaggle.com/datasets/alexandrepetit881234/fake-bills
+employee turnover: https://www.kaggle.com/datasets/davinwijaya/employee-turnover/data
+cancer: https://www.kaggle.com/datasets/erdemtaha/cancer-data/data
+redwine: https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/data
+kidney stone: https://www.kaggle.com/datasets/utkarshxy/kidney-stone-data
+rockwine: https://www.kaggle.com/datasets/vijayaadithyanvg/rock-or-mine-classification/data
+gender voice: https://www.kaggle.com/datasets/primaryobjects/voicegender/data
+possum: https://www.kaggle.com/datasets/abrambeyer/openintro-possum/data
