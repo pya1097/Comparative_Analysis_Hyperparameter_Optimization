@@ -6,6 +6,8 @@ import json
 import time
 
 inputs = ['dtlz2','dtlz3','pom3a','pom3b','pom3c','SS-A','SS-B','SS-C','SS-D','Wine_quality']
+file_output = 'smo_output_sample.txt'
+# inputs = ['dtlz2']
 
 def gate(treatement, budget0, budget, some,input):
         score = []
@@ -16,7 +18,10 @@ def gate(treatement, budget0, budget, some,input):
             print('SEED: ', randomSeed,"    ", treatement,"     ",input)
             print('------------------------------------------------------------------------------------------')
             d = DATA(file_path) #loads the data
-            score.append(d.gate(randomSeed,budget0, budget, some,input))
+            l , acc = d.gate(randomSeed,budget0, budget, some,input)
+            with open(file_output, 'a') as file:
+                file.write('\n-------------------------------- BEST \n' + str(l.cells) + ' \n--------------------------------\n')
+            score.append(acc)
             print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
              
         return score
@@ -26,7 +31,7 @@ if __name__ == "__main__":
     smos = {}
 
     start_time_0 = time.time()
-    file_output = 'smo_output.txt'
+    
     for input in inputs:
         start_time_1 = time.time()
         with open(file_output, 'a') as file:

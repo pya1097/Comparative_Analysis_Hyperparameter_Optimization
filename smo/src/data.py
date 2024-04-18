@@ -72,10 +72,9 @@ class DATA:
 
 
         lite.sort(key=lambda a: a.d2h(input),reverse=True)
-        # for best in lite:
-        #     print(best.cells)
 
-        return lite[0].cells[len(lite[0].cells)-1]
+
+        return lite[0], lite[0].cells[len(lite[0].cells)-1]
 
     def split(self, best, rest, lite, dark):
         selected = DATA(self.cols.names)
