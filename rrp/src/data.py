@@ -89,6 +89,7 @@ class DATA:
     
     def half(self, input, rows, sortp, before):
         the_half = min(len(rows) // 2, len(rows))
+        
         some = random.sample(rows, the_half)
         a, b, C, evals = self.farapart(input,some, sortp, before)
         def d(row1, row2):
@@ -103,10 +104,11 @@ class DATA:
         return as_, bs, a, b, C, d(a, bs[0]), evals
     
     
-    def branch(self,input, stop=None, rest=None, _branch=None, evals=None):
+    def branch(self,randomSeed,input, stop=None, rest=None, _branch=None, evals=None):
         evals, rest = 1, []
         stop = stop or (2 * (len(self.rows) ** 0.5))
-
+        random.seed(randomSeed)
+        
         def _branch(data, above=None, left=None, lefts=None, rights=None):
             nonlocal evals, rest
 

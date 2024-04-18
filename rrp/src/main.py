@@ -4,17 +4,21 @@ from config import *
 import random
 import time
 
-inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
+# inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
 # inputs = ['digits']
+# inputs = ['dtlz2','dtlz3','pom3a','pom3b','pom3c','SS-A','SS-B','SS-C','SS-D','Wine_quality']
+inputs = ['dtlz2']
 
 def rrp(input):
     score = []
-    for i in range(0,20):
+    randomSeeds = random.sample(range(15000),20)  
+    # for i in range(0,20):
+    for randomSeed in randomSeeds:
         print('------------------------------------------------------------------------------------------')
-        print("RRP Iteration: ",i)
+        print('SEED: ', randomSeed,"    ",input)
         print('------------------------------------------------------------------------------------------')
         data_new = DATA(the['file'])
-        best, _, _ = data_new.branch(input)
+        best, _, _ = data_new.branch(randomSeed,input)
         max = -100
         for r in best.rows:
             if max < round(r.d2h(input, data_new),3):

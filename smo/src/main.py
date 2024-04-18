@@ -5,8 +5,7 @@ import random
 import json
 import time
 
-inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
-# inputs = ['digits','breastcancer','iris']
+inputs = ['dtlz2','dtlz3','pom3a','pom3b','pom3c','SS-A','SS-B','SS-C','SS-D','Wine_quality']
 
 def gate(treatement, budget0, budget, some,input):
         score = []
