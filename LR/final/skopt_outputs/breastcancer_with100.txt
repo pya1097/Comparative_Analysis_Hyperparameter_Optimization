@@ -1,0 +1,80 @@
+
+_______________________________
+skopts100
+_______________________________
+
+
+the best params:OrderedDict([('C', 199.49358296841658), ('fit_intercept', True), ('max_iter', 4698), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 0.00012776445673776295), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 541.6394444100681), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 4779), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 4939), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 101972.23862317234), ('fit_intercept', True), ('max_iter', 4961), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 4.267914013011116e-06), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 152.59611310575036), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 0.0003354434872434924), ('fit_intercept', False), ('max_iter', 155), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9604780122111447
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 216.87100486068493), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1000000.0), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 45967.49526646065), ('fit_intercept', True), ('max_iter', 1255), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1000000.0), ('fit_intercept', True), ('max_iter', 1887), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1.1040057980422529), ('fit_intercept', True), ('max_iter', 5000), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 1852), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+
+the best params:OrderedDict([('C', 1e-06), ('fit_intercept', True), ('max_iter', 2763), ('penalty', None), ('tol', 1e-06)])
+the best value:0.9560727258675323
+*****************************
+Average optimal accuracy:0.9562929901847129
+*****************************
+
+---------------------
+Accuracy
+---------------------
+{'skopt100': [0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9604780122111447, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323, 0.9560727258675323]}
+---------------------
+
+---------------------
+Time
+---------------------
+{'skopt100': 6577.813351392746}
+---------------------

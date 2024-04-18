@@ -27,9 +27,15 @@ def objective(params):
 
   return -accuracy
 
+<<<<<<< Updated upstream
 inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
 # inputs = ['digits','breastcancer']
 n_trials_list = [6,12,20,60,100] #50,100,200,500
+=======
+# inputs = ['digits','breastcancer','iris','whitewine','socialnetworkads','heartdisease','titanic','employeeattrition','pumpkinseeds','marketing','bankloan','date','fakebills','empturnover','cancer','wine','kidneystone','mineorrock','gendervoice','possum']
+inputs = ['digits','breastcancer']
+n_trials_list = [6,14,20,60,100] #50,100,200,500
+>>>>>>> Stashed changes
 iters =20
 
 param_space = {
