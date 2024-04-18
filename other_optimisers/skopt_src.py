@@ -3,7 +3,7 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LogisticRegression
 from skopt import gp_minimize
-from skopt.space import Real, Integer
+from skopt.space import Real, Integer, Categorical
 import warnings
 import time
 import os
@@ -21,19 +21,21 @@ iters =20
 space = [
     Real(0.0001, 0.1, name='C'),  # Inverse of regularization strength
     Integer(1, 100, name='max_iter'),  # Maximum number of iterations
-    Real(0.0001, 0.9999, name='tol')  # Tolerance for stopping criteria
+    Real(0.0001, 0.9999, name='tol'),  # Tolerance for stopping criteria
+    Categorical(['l2', None], name='penalty'),  # Penalty
+    Categorical([True, False], name='fit_intercept') 
 ]
 
 # Define the objective function to minimize (negative mean cross-validated accuracy)
 def objective(params):
-    C, max_iter, tol = params
-    model = LogisticRegression(C=C, max_iter=max_iter, tol=tol)
+    C, max_iter, tol, penalty, fit_intercept = params
+    model = LogisticRegression(C=C, max_iter=max_iter, tol=tol, fit_intercept=fit_intercept, penalty=penalty)
     return -np.mean(cross_val_score(model, X, y, cv=5, scoring='accuracy'))
 
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(script_dir, 'skopt_outputs')
-data_dir = "/Users/priyaandurkar/Documents/Spring 2024/ASE/Project/se_data"
+data_dir = "../se_data/"
 
 res = {}
 for inputf in inputs:
