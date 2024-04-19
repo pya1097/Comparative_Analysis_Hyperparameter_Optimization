@@ -20,7 +20,7 @@ class ROW:
         warnings.filterwarnings("ignore", category=DataConversionWarning)
         warnings.filterwarnings("ignore", category=ConvergenceWarning)
         if(len(self.cells)==6):
-            X, y = pd.read_csv("se_data/"+input+"_X.csv"),pd.read_csv("se_data/"+input+"_y.csv")
+            X, y = pd.read_csv("LR/final/"+input+"_X.csv"),pd.read_csv("LR/final/"+input+"_y.csv")
             # X = X / X.max()
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=23)
             logistic = linear_model.LogisticRegression(max_iter=int(self.cells[0]), C=(self.cells[1]), tol=self.cells[2], fit_intercept=self.cells[3], dual=self.cells[4], penalty=self.cells[5])
