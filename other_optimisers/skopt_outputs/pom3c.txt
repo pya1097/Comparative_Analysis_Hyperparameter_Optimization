@@ -1,0 +1,284 @@
+
+_______________________________
+skopt12
+_______________________________
+
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+
+the best params:[0.0001, 100, 0.0001, None, True]
+the best value:0.7699999999999999
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+_______________________________
+skopt20
+_______________________________
+
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+
+the best params:[0.0001, 94, 0.0001, None, True]
+the best value:0.772
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+_______________________________
+skopt60
+_______________________________
+
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+_______________________________
+skopt100
+_______________________________
+
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+
+the best params:[0.0001, 69, 0.0001, None, True]
+the best value:0.774
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+---------------------
+Accuracy
+---------------------
+{'skopt12': [0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999, 0.7699999999999999], 'skopt20': [0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772, 0.772], 'skopt60': [0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774], 'skopt100': [0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774, 0.774]}
+---------------------
+
+---------------------
+Time
+---------------------
+{'skopt12': 48.70752453804016, 'skopt20': 158.65014910697937, 'skopt60': 792.1356720924377, 'skopt100': 1972.0672769546509}
+---------------------

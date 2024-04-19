@@ -127,7 +127,7 @@ def egSlurp():
 def eg0(nums):
   all = SAMPLE([x for num in nums for x in num.has])
   last = None
-  file_output = 'stats_output.txt'
+  file_output = 'stats_output_new.txt'
   for num in sk(nums):
     if num.rank != last: print("\n#\n")
     if num.rank != last:

@@ -1,0 +1,292 @@
+
+_______________________________
+skopt12
+_______________________________
+
+_______________________________
+skopt12
+_______________________________
+
+_______________________________
+skopt12
+_______________________________
+
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+
+the best params:[0.08643774530611832, 91, 0.0001, None, False]
+the best value:0.565
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+_______________________________
+skopt20
+_______________________________
+
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+
+the best params:[0.1, 45, 0.0001, None, True]
+the best value:0.65
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+_______________________________
+skopt60
+_______________________________
+
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+_______________________________
+skopt100
+_______________________________
+
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+
+the best params:[0.02789362868998017, 87, 0.0001, None, True]
+the best value:0.656
+*****************************
+Average optimal accuracy:0.0
+*****************************
+
+---------------------
+Accuracy
+---------------------
+{'skopt12': [0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565, 0.565], 'skopt20': [0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65], 'skopt60': [0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656], 'skopt100': [0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656, 0.656]}
+---------------------
+
+---------------------
+Time
+---------------------
+{'skopt12': 38.22364640235901, 'skopt20': 147.60285305976868, 'skopt60': 838.986451625824, 'skopt100': 1837.1497859954834}
+---------------------
